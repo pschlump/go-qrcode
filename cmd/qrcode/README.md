@@ -56,7 +56,7 @@ Provides some examples of how to use the `qrcode` command.
 qrcode "Hello, World!"
 
 # Generate a QR code into file with block size and borders (unit: pixel)
-qrcode -o qrcode.png -s  20 -b 20,20,20,20 -m "Hello, World!"
+qrcode -o qrcode.png -s  20 -b 20,20,20,20 "Hello, World!"
 
 # Generate a QR code into terminal
 qrcode --terminal "Hello, World!"
